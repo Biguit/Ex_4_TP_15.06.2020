@@ -28,8 +28,8 @@ public class Ex4TP15062020 {
     N3= enter.nextDouble();
     
     DT= Math.pow(N2, 2) - 4 * N1 * N3 ;
-    X1 = (- N2) + Math.sqrt(DT) / (2 * N1);
-    X2 = (- N2) - Math.sqrt(DT) / (2 * N1);
+    X1 = ((- N2) + Math.sqrt(DT)) / (2 * N1);
+    X2 = ((- N2) - Math.sqrt(DT)) / (2 * N1);
     
     System.out.println ("o delta vale: "+ DT);
     if (N1 == 0)
